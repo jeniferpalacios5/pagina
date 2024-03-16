@@ -1,0 +1,599 @@
+@font-face {
+    font-family: "CormorantGaramond-Light";
+    src: url(./tipografía/CormorantGaramond-Light.ttf)
+}
+
+@font-face {
+    font-family: "CormorantGaramond-Regular";
+    src: url(./tipografía/CormorantGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: "DancingScript-Bold";
+    src: url(./tipografía/DancingScript-Bold.ttf);
+}
+
+@font-face {
+    font-family: "DancingScript-Regular";
+    src: url(./tipografía/DancingScript-Regular.ttf)
+}
+
+@font-face {
+    font-family: "Grabiola";
+    src: url(./tipografía/Gabriola.ttf)
+}
+
+@font-face {
+    font-family: "RNS Camelia Extra Light";
+    src: url(./tipografía/RNS\ Camelia\ Extra\ Light.otf)
+}
+
+@font-face {
+    font-family: "Britannic Medium Regular";
+    src: url(./tipografía/Britannic\ Medium\ Regular.ttf)
+}
+
+
+.contenedor_principal {
+    background-repeat: no-repeat;
+    background: url(./imagenes/fond.jpg);
+    background-size: cover;
+    height: 115vh;
+    width: 100%;
+
+}
+
+/* comic */
+.contenedor_comic {
+    background-repeat: no-repeat;
+    background: url(./imagenes/fcomic.png);
+    background-size: cover;
+    height: 115vh;
+    width: 100%;
+    background-color: hsl(203, 48%, 89%);
+}
+
+.titcomic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DancingScript-Regular";
+    font-weight: bold;
+    color: hsl(204, 90%, 72%);
+    font-size: 75px;
+    height: 50vh;
+    width: 130vh;
+}
+
+/* comic */
+
+/* tiendita */
+.contenedor_tiendita {
+    background-repeat: no-repeat;
+    background: url(./imagenes/tiendita.png);
+    background-size: cover;
+    height: 840px;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+.conti {
+    background-color: rgb(240, 240, 240);
+    margin-top: 50px;
+}
+
+.botontien {
+
+    font-family: "CormorantGaramond-Regular";
+    font-size: 30px;
+    margin-left: 175vh;
+    height: 30vh;
+    background-color: rgb(196, 231, 255);
+    width: 180px;
+    height: 50px;
+    margin-top: -55px;
+}
+
+.botontien:hover {
+    background-color: #159CF9;
+}
+.shop{
+    margin-left: 1770px;
+    margin-top: 20px;
+    height: 70px;
+    
+}
+.registro1{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 70px;
+}
+
+.btn-primary {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    --bs-btn-border-color: rgb(115, 195, 248);
+    --bs-btn-hover-border-color: rgb(115, 195, 248);
+}
+
+.card {
+    width: 300px;
+    border: white;
+
+}
+.card-title{
+   font-family: "CormorantGaramond-Regular";
+    font-size: 33px;
+}
+.card-text{
+    font-family: "CormorantGaramond-Bold";
+     font-size: 25px;
+     
+ }
+ 
+
+.title {
+    font-family: "CormorantGaramond-Regular";
+    font-size: 30px;
+    background-color: #8dd7fa;
+}
+
+/* tiendita */
+.nav {
+    font-family: "CormorantGaramond-Regular";
+    font-size: 33px;
+    margin-top: 30px;
+
+}
+
+/* registro */
+.contenedor_registro {
+    background-color: #C0E7F9;
+}
+
+form {
+    background-color: rgb(255, 255, 255);
+
+}
+
+/* registro */
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #159CF9;
+    /*    background-color: #159CF9;
+    border-radius: 1rem; */
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+/*  registro */
+
+.form {
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    padding: 50px;
+    margin-top: 150px;
+}
+
+.tittlecrear {
+    display: flex;
+    justify-content: center;
+    font-family: "RNS Camelia Extra Light";
+    font-size: 35px;
+    color: #00caff;
+}
+
+.form-floating {
+    /* display: flex;
+justify-content: center; */
+    font-family: "RNS Camelia Extra Light";
+    font-size: 20px;
+    color: #515151;
+
+}
+
+.form-control {
+    width: 60%;
+    background-color: rgb(234, 234, 234);
+    border: rgb(234, 234, 234);
+
+}
+
+.btn-reg {
+    width: 40%;
+    background-color: #64c9f8;
+    font-family: "RNS Camelia Extra Light";
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #2cb8f8;
+    color: #ffffff;
+}
+
+/*  registro */
+
+/* ingresar */
+.form {
+    display: flex;
+    justify-content: center;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    padding: 50px;
+
+
+}
+
+.tittlehell {
+    font-family: "Britannic Medium Regular";
+    font-size: 70px;
+    color: black;
+    text-align: center;
+}
+
+.tittleingre {
+    display: flex;
+    justify-content: center;
+    font-family: "RNS Camelia Extra Light";
+    font-size: 35px;
+    text-align: center;
+    color: #00caff;
+}
+
+.form-floating {
+    /* display: flex;
+justify-content: center;  */
+    font-family: "RNS Camelia Extra Light";
+    font-size: 20px;
+    color: #515151;
+
+}
+
+.form-control {
+    width: 60%;
+    background-color: rgb(234, 234, 234);
+    border: rgb(234, 234, 234);
+
+}
+
+.form-text {
+    display: flex;
+    text-align: center;
+}
+
+.btn-reg {
+    width: 30%;
+    background-color: #64c9f8;
+    font-family: "RNS Camelia Extra Light";
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #2cb8f8;
+    color: #ffffff;
+}
+
+/* ingresar */
+.tittle {
+    font-size: 43px;
+    margin-left: -140px;
+    margin-top: 50px;
+    font-family: "CormorantGaramond-Regular";
+}
+
+.tittlef {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 265px;
+    margin-top: -70px;
+    font-family: "DancingScript-Regular";
+    font-weight: bold;
+    color: #159CF9;
+}
+
+.frase {
+    font-family: "CormorantGaramond-Regular";
+    font-size: 21px;
+}
+
+/* Bonton comic */
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "CormorantGaramond-Regular";
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 45px;
+    background-color: rgb(115, 195, 248);
+    width: 180px;
+    height: 50px;
+}
+
+.boton:hover {
+    background-color: #159CF9;
+}
+
+.btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --bs-btn-border-color: rgb(115, 195, 248);
+    --bs-btn-hover-border-color: rgb(115, 195, 248);
+}
+
+.men {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+.imgCon {
+    height: 170px;
+    margin-top: 30px;
+}
+
+.imgObje {
+    display: flex;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.p-1 {
+    margin-top: 60px;
+}
+
+.tittleConocenos {
+    margin-top: 60px;
+    font-size: 60px;
+    font-family: "CormorantGaramond-Regular";
+    text-align: center;
+    color: #3bb7ff;
+}
+
+.tittlecono {
+    font-family: "CormorantGaramond-Regular";
+    color: #000000;
+}
+
+.parrafocono {
+    font-family: "CormorantGaramond-Regular";
+    text-align: justify !important;
+    font-size: 25px;
+    width: 75%;
+
+
+}
+
+.objetivo {
+    background-color: #00CAFF;
+}
+
+.tittleobj {
+    font-family: "CormorantGaramond-Regular";
+    color: rgb(250, 146, 146);
+
+
+}
+
+.parrafoobj {
+    font-family: "CormorantGaramond-Regular";
+    color: white;
+    font-size: 20px;
+
+}
+.card1{
+    background-image: url(imagenes/card.png);
+    background-size: cover;
+    height: 95vh;
+}
+.nombre{
+display: flex;
+justify-content: center;
+font-family: "CormorantGaramond-Regular";
+margin-top: 70px;
+font-size: 52px;
+color: #797979;
+}
+.textoo{
+    display: flex;
+    margin-left: 37px;
+    margin-top: 35px;
+    font-family: "CormorantGaramond-Regular";
+    text-align: justify !important;
+
+    width: 80%;
+    font-size: 25px;
+}
+.adam{
+   display: flex;
+   flex-direction: column;
+
+}   
+ .personaje{
+     display: flex;
+     width: 60%;
+     margin-top: 20px;
+     margin-left: 80px;
+ } 
+ .personaje1{
+    display: flex;
+    width: 85%;
+    margin-top: -75px;
+    margin-left: 40px;
+} 
+
+ .personaje2{
+    display: flex;
+    width: 85%;
+    margin-top: -75px;
+    margin-left: 40px;
+} 
+
+
+
+
+
+.bg-personajes {
+    background: #f1f1f1;
+    padding: 60px;
+}
+
+.fondo3 {
+    height: 275px;
+    margin-left: -420px;
+    margin-top: -70px;
+
+}
+
+.tittlepers {
+    color: #636363;
+    font-family: "CormorantGaramond-Regular";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 55px;
+
+}
+
+.imgCon {
+    height: 120px;
+}
+
+.imgObje {
+    height: 120px;
+}
+
+.contenedor_nub {
+    background: linear-gradient(#9de0ff, #0f93ff);
+    height: 100vh;
+}
+
+.fonNub {
+    height: 80vh;
+    margin-top: 60px;
+    margin-left: -30px;
+}
+
+.logline{
+    font-family: "CormorantGaramond-Regular";
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    margin-top: -500px;  
+    color: #0f9fff; 
+}
+.parrafLoligne{
+    font-family: "CormorantGaramond-Regular";
+    text-align: justify !important;
+    font-size: 25px;
+    margin-top: 45px;
+    margin-left: 320px;
+    width: 50%;
+}
+.container_redes {
+    background-color: #f7f7f7;
+}
+
+.reds {
+    display: flex;
+    height: 120px;
+    gap: 50px;
+}
+
+.cel {
+    height: 790px;
+    margin-left: -420px;
+
+}
+
+.invi {
+    font-size: 73px;
+    margin-left: -400px;
+    margin-top: 300px;
+    font-family: "CormorantGaramond-Regular";
+}
+
+.invit {
+    font-size: 73px;
+    margin-left: -340px;
+    margin-top: -25px;
+    font-family: "CormorantGaramond-Regular";
+}
+
+.comi {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+    margin-top: -120px;
+    font-family: "DancingScript-Regular";
+
+    color: #159CF9;
+}
+
+.boton1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Gabriola";
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 45px;
+    background-color: rgb(115, 195, 248);
+    width: 230px;
+    height: 60px;
+}
+
+.boton1:hover {
+    background-color: #159CF9;
+}
+
+.obj {
+    width: 300px;
+   
+    background-color: #e7e7e7;
+
+}
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 58px;
+    width: 150px;
+    font-family: "CormorantGaramond-Regular";
+    font-size: 22px;
+    color: #000000;
+    background-color: #aee2f4;
+    --bs-btn-border-color: #aee2f4;
+    --bs-btn-hover-border-color: #7bc7ff;
+}
+.ir-arriba{
+    display:none;
+    background-repeat:no-repeat;
+    font-size:20px;
+    color:black;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    z-index:2;
+  }
